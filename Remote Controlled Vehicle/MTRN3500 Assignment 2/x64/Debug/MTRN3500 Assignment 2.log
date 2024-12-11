@@ -1,0 +1,40 @@
+﻿  Controller.cpp
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Controller.h(26,14): warning C4490: “override”: 重写说明符的用法不正确；“Controller::communicate”与 ref 基类方法不匹配
+  (编译源文件“Controller.cpp”)
+      D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Controller.h(26,14):
+      只有存在来自 ref 类的匹配基方法时，才允许使用“new”或“override”
+  
+  CrashAvoidance.cpp
+  Display.cpp
+  GNSS.cpp
+  Laser.cpp
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Laser.cpp(86,20): warning C4018: “<”: 有符号/无符号不匹配
+  Main.cpp
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Controller.h(26,14): warning C4490: “override”: 重写说明符的用法不正确；“Controller::communicate”与 ref 基类方法不匹配
+  (编译源文件“Main.cpp”)
+      D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Controller.h(26,14):
+      只有存在来自 ref 类的匹配基方法时，才允许使用“new”或“override”
+  
+  TMM.cpp
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Controller.h(26,14): warning C4490: “override”: 重写说明符的用法不正确；“Controller::communicate”与 ref 基类方法不匹配
+  (编译源文件“TMM.cpp”)
+      D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Controller.h(26,14):
+      只有存在来自 ref 类的匹配基方法时，才允许使用“new”或“override”
+  
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\TMM.cpp(39,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\TMM.cpp(55,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\TMM.cpp(76,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\TMM.cpp(110,20): warning C4018: “<”: 有符号/无符号不匹配
+  VC.cpp
+  正在生成代码...
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\VC.cpp(146,1): warning C4715: “VehicleControl::processHeartbeats”: 不是所有的控件路径都返回值
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Laser.cpp(70,1): warning C4715: “Laser::processHeartbeats”: 不是所有的控件路径都返回值
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\GNSS.cpp(146,1): warning C4715: “GNSS::processHeartbeats”: 不是所有的控件路径都返回值
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Display.cpp(66,1): warning C4715: “Display::processHeartbeats”: 不是所有的控件路径都返回值
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\CrashAvoidance.cpp(93,1): warning C4715: “CrashAvoidance::processHeartbeats”: 不是所有的控件路径都返回值
+D:\1\UNSW\T3\3500\Assignment2\final\MTRN3500 Assignment 2\Controller.cpp(115,1): warning C4715: “Controller::processHeartbeats”: 不是所有的控件路径都返回值
+  Controller.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
+ControllerInterface_x64_Debug.lib(ControllerInterface_x64_Debug.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+ControllerInterface_x64_Debug.lib(ControllerInterface_x64_Debug.obj) : warning LNK4099: 未找到 PDB“”(使用“ControllerInterface_x64_Debug.lib(ControllerInterface_x64_Debug.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+ControllerInterface_x64_Debug.lib(pch.obj) : warning LNK4099: 未找到 PDB“”(使用“ControllerInterface_x64_Debug.lib(pch.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  MTRN3500 Assignment 2.vcxproj -> D:\1\UNSW\T3\3500\Assignment2\final\Executables\MTRN3500 Assignment 2.exe
